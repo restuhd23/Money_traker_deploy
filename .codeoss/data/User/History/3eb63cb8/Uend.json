@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "submission-pmta-restu",
+    "private_key_id": "0af4faaadd91bd9894827191b5563dd43d84909e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDLMKH2As16q6Xh\n8BzCMFgZpX8sFE3xcOziE9V1/G9+oOS4u7dR9XUYNkobIXka0jZhkTD+A+hFjfXJ\nb4RypnSo2c2IUaVO87cK9HMQhT4ExGTXkOPdriAEdUv3XFHX/YwzBH8nWiLKWYZc\nFM1DWPy9Oijd5fI/9YOVDiyjlYJiIboSM8iuVvo6Lje7gup8XjYSv/0LIF0X4zps\ne94pyfKEiLd8z80Dl+vHc0nfpM5+dNU0iW2wYtM1UScKEjWqz8UXD5VWaOHPeZp8\nizjA9STYxGcZLuFwPa7RMQyOlEg4kdHh24yj4kb3E+ZsT2O6wtxIFc2sRWFCYLYN\nXJWjBbgfAgMBAAECggEARXrJxx/KN6o+PPYoP1bcqVhoFiCTTn444k257nB1h61o\nyKqX0xTGB5N437IggUVkhxRo1lNrt20FoO3bMoEs3xgrKfQRPOAltT9FoV6OiH7H\npNbMtF74X83kPh95dQwkRsXA3Sn7P4pBYXdTgTYKpoIeu1IH9krzxaJlLULQpNEb\nnC5OxSG8ZO3hr1xrJ7HnVD0iDE4frZMGOj5q1mZAJpUQvqdfezBJLPVcsj37MOuY\n1b5TozQTQRvf7H2AuGLMRvPPsLAoCbrpvmI4iJTW9qVmK+MChdpW0T52IiyA6m5T\nk2pgVEj/DwZZazwP3WpJLTfippx+5eF3W/m8vThcsQKBgQDm0YHO/FbaqoUzkVbH\nnPt7Fbe8YiRn2qakWfGsV7ws5OwSoGU6L10zJyjSztNwH2Nr/lJXJ9SHiLU2+rsC\ngXyuCsT/D4BNc+UrrcoiSC6eCe+9jV5HDiISI1tZjXhv585DHLlLp/z2+I0Y/fJ4\nACkYAKg14RZlSlZM+6Z9eGnEOwKBgQDhW37g9V7Ocmm5JN7oXDtsBxo61y3DteIj\nLvoWKpibR1FBuzflwctoH0SexzhYpjosN80brenzypgiIuGdm0pmjugEmWNCYlrA\nFQ4Awg2EajVo5b/xZbsNncI9oeAcUfXpiz19hVPsCeNlZBCfT9XNPZ1YNHjUyDfF\nMcagnsvRbQKBgD87shYkZx7sjCU+ccmppfNoVbeUI2kYK4Lm6SBPwMuDw3Cu5Ex2\nYU/8MGDgLGiREMmrGJ+r17txpkNzmPvswV1ksec2Ne4CDAxVRgTyRWMiUb1aFzPc\nGVVivkngSdhOZuFX4yNo2BJIsU7hcyWQ1bEvrOVlzp7dKJtabZf9/uu1AoGBAIL8\n2KHPXXzn+dW4vawXuB5RfoiG/D3OoZPLwWdS+QMAkBWBybrNSvrJeexEZdb5P8Tl\n5l1ZWCvxLT5iQfuHANbd57SMp6o1WwRc+JeuM4cs6MCBEnEwrWn7saR7S7WKWkKW\nQXaNIbuH/9m2MQc4s1ApqSRU04rymaAQD6DazCN9AoGBAI1b4v4GL5rRSTRJJbTj\n/JM1nydOCgu9ji1mAQzw0WNHFmwvITInetrvj/9blswdQ/+Jx3eVp6Y8m/oRcP36\nR+G3Ncd5HQwY2uYu/+5qagmaUgTKM+9i8Ogo/GisnnGvFbP9LtOXxWdyWlTdisyz\n7QcbrRX592gSnS770oH0e6cY\n-----END PRIVATE KEY-----\n",
+    "client_email": "submission-pmta-restu2@submission-pmta-restu.iam.gserviceaccount.com",
+    "client_id": "115206184801531117254",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/submission-pmta-restu2%40submission-pmta-restu.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

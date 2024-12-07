@@ -1,0 +1,111 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.11.0/bin/node /usr/local/nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/c182b4kx3757/.cache/typescript/5.6/.npmrc
+5 silly config load:file:/home/c182b4kx3757/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/etc/npmrc
+7 verbose title npm install @types/readable-stream@ts5.6
+8 verbose argv "install" "--ignore-scripts" "@types/readable-stream@ts5.6" "--save-dev" "--user-agent" "typesInstaller/5.6.3"
+9 verbose logfile logs-max:10 dir:/home/c182b4kx3757/.npm/_logs/2024-11-24T15_39_02_415Z-
+10 verbose logfile /home/c182b4kx3757/.npm/_logs/2024-11-24T15_39_02_415Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2freadable-stream cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@types%2freadable-stream 210ms (cache miss)
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2freadable-stream set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest @types/readable-stream@4.0.18
+19 silly packumentCache full:https://registry.npmjs.org/@types%2freadable-stream cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2freadable-stream 60ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freadable-stream set size:undefined disposed:false
+22 silly placeDep ROOT @types/readable-stream@4.0.18 OK for:  want: 4.0.18
+23 silly fetch manifest safe-buffer@~5.1.1
+24 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/safe-buffer 52ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:undefined disposed:false
+27 silly placeDep ROOT safe-buffer@5.1.2 OK for: @types/readable-stream@4.0.18 want: ~5.1.1
+28 silly reify moves {}
+29 silly audit bulk request {
+29 silly audit   '@types/accepts': [ '1.3.7' ],
+29 silly audit   '@types/benchmark': [ '2.1.5' ],
+29 silly audit   '@types/body-parser': [ '1.19.5' ],
+29 silly audit   '@types/busboy': [ '1.5.4' ],
+29 silly audit   '@types/bytes': [ '3.1.4' ],
+29 silly audit   '@types/concat-stream': [ '2.0.3' ],
+29 silly audit   '@types/connect': [ '3.4.38' ],
+29 silly audit   '@types/content-disposition': [ '0.5.8' ],
+29 silly audit   '@types/content-type': [ '1.1.8' ],
+29 silly audit   '@types/cookie-signature': [ '1.1.2' ],
+29 silly audit   '@types/cookiejar': [ '2.1.5' ],
+29 silly audit   '@types/dateformat': [ '5.0.2' ],
+29 silly audit   '@types/debug': [ '4.1.12' ],
+29 silly audit   '@types/depd': [ '1.1.37' ],
+29 silly audit   '@types/encodeurl': [ '1.0.2' ],
+29 silly audit   '@types/escape-html': [ '1.0.4' ],
+29 silly audit   '@types/eslint': [ '9.6.1' ],
+29 silly audit   '@types/eslint-plugin-markdown': [ '2.0.2' ],
+29 silly audit   '@types/estree': [ '1.0.6' ],
+29 silly audit   '@types/etag': [ '1.8.3' ],
+29 silly audit   '@types/express': [ '5.0.0' ],
+29 silly audit   '@types/express-serve-static-core': [ '5.0.1' ],
+29 silly audit   '@types/finalhandler': [ '1.2.3' ],
+29 silly audit   '@types/forwarded': [ '0.1.3' ],
+29 silly audit   '@types/fresh': [ '0.5.2' ],
+29 silly audit   '@types/http-errors': [ '2.0.4' ],
+29 silly audit   '@types/istanbul': [ '0.4.34' ],
+29 silly audit   '@types/jquery': [ '3.5.32' ],
+29 silly audit   '@types/json-schema': [ '7.0.15' ],
+29 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+29 silly audit   '@types/methods': [ '1.1.4' ],
+29 silly audit   '@types/mime': [ '1.3.5' ],
+29 silly audit   '@types/mime-types': [ '2.1.4' ],
+29 silly audit   '@types/mocha': [ '10.0.10' ],
+29 silly audit   '@types/ms': [ '0.7.34' ],
+29 silly audit   '@types/multer': [ '1.4.12' ],
+29 silly audit   '@types/mysql': [ '2.15.26' ],
+29 silly audit   '@types/negotiator': [ '0.6.3' ],
+29 silly audit   '@types/node': [ '22.9.3' ],
+29 silly audit   '@types/on-finished': [ '2.3.4' ],
+29 silly audit   '@types/parseurl': [ '1.3.3' ],
+29 silly audit   '@types/proxy-addr': [ '2.0.3' ],
+29 silly audit   '@types/qs': [ '6.9.17' ],
+29 silly audit   '@types/range-parser': [ '1.2.7' ],
+29 silly audit   '@types/send': [ '0.17.4' ],
+29 silly audit   '@types/serve-static': [ '1.15.7' ],
+29 silly audit   '@types/sizzle': [ '2.3.9' ],
+29 silly audit   '@types/sqlstring': [ '2.3.2' ],
+29 silly audit   '@types/statuses': [ '2.0.5' ],
+29 silly audit   '@types/superagent': [ '8.1.9' ],
+29 silly audit   '@types/supertest': [ '6.0.2' ],
+29 silly audit   '@types/type-is': [ '1.6.6' ],
+29 silly audit   '@types/unist': [ '3.0.3' ],
+29 silly audit   '@types/utils-merge': [ '1.0.0' ],
+29 silly audit   '@types/vary': [ '1.1.3' ],
+29 silly audit   '@types/xtend': [ '4.0.6' ],
+29 silly audit   asynckit: [ '0.4.0' ],
+29 silly audit   'combined-stream': [ '1.0.8' ],
+29 silly audit   'delayed-stream': [ '1.0.0' ],
+29 silly audit   'form-data': [ '4.0.1' ],
+29 silly audit   'mime-db': [ '1.52.0' ],
+29 silly audit   'mime-types': [ '2.1.35' ],
+29 silly audit   'types-registry': [ '0.1.696' ],
+29 silly audit   'undici-types': [ '6.19.8' ],
+29 silly audit   '@types/readable-stream': [ '4.0.18' ],
+29 silly audit   'safe-buffer': [ '5.1.2' ]
+29 silly audit }
+30 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+31 silly tarball no local data for @types/readable-stream@https://registry.npmjs.org/@types/readable-stream/-/readable-stream-4.0.18.tgz. Extracting by manifest.
+32 http fetch GET 200 https://registry.npmjs.org/@types/readable-stream/-/readable-stream-4.0.18.tgz 82ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 84ms (cache miss)
+34 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 438ms
+35 silly audit report {}
+36 silly ADD node_modules/safe-buffer
+37 silly ADD node_modules/@types/readable-stream
+38 verbose cwd /home/c182b4kx3757/.cache/typescript/5.6
+39 verbose os Linux 6.1.112+
+40 verbose node v22.11.0
+41 verbose npm  v10.9.0
+42 verbose exit 0
+43 info ok

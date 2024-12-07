@@ -1,0 +1,32 @@
+2024-11-22 13:12:46.750 [info] 
+
+
+
+
+2024-11-22 13:12:46.768 [info] Extension host agent started.
+2024-11-22 13:12:52.474 [info] [127.0.0.1][70f015ec][ManagementConnection] New connection established.
+2024-11-22 13:12:52.476 [info] [127.0.0.1][6dadee0c][ExtensionHostConnection] New connection established.
+2024-11-22 13:12:53.486 [info] [127.0.0.1][6dadee0c][ExtensionHostConnection] <1205> Launched Extension Host Process.
+2024-11-22 13:14:19.797 [info] [127.0.0.1][70f015ec][ManagementConnection] The client has reconnected.
+2024-11-22 13:15:58.923 [info] [127.0.0.1][70f015ec][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-22 13:16:04.144 [info] [127.0.0.1][9f79d809][ManagementConnection] New connection established.
+2024-11-22 13:16:05.150 [info] [127.0.0.1][4928646e][ExtensionHostConnection] New connection established.
+2024-11-22 13:16:05.156 [info] [127.0.0.1][4928646e][ExtensionHostConnection] <1275> Launched Extension Host Process.
+2024-11-22 13:21:04.365 [info] [127.0.0.1][6dadee0c][ExtensionHostConnection] <1205> Extension Host Process exited with code: 0, signal: null.
+2024-11-22 13:27:53.187 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-22 13:37:11.417 [info] [127.0.0.1][4928646e][ExtensionHostConnection] The client has reconnected.
+2024-11-22 13:37:13.991 [info] [127.0.0.1][9f79d809][ManagementConnection] The client has reconnected.
+2024-11-22 13:37:28.623 [info] [127.0.0.1][9f79d809][ManagementConnection] The client has reconnected.
+2024-11-22 13:37:28.963 [info] [127.0.0.1][4928646e][ExtensionHostConnection] The client has reconnected.
+2024-11-22 14:31:15.917 [info] [127.0.0.1][9f79d809][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-22 14:41:49.591 [info] [127.0.0.1][6900e66a][ExtensionHostConnection] New connection established.
+2024-11-22 14:41:49.592 [info] [127.0.0.1][4cb3834d][ManagementConnection] New connection established.
+2024-11-22 14:41:49.598 [info] [127.0.0.1][6900e66a][ExtensionHostConnection] <2650> Launched Extension Host Process.
+2024-11-22 14:42:30.609 [info] [127.0.0.1][4cb3834d][ManagementConnection] The client has reconnected.
+2024-11-22 14:46:49.877 [info] [127.0.0.1][4928646e][ExtensionHostConnection] <1275> Extension Host Process exited with code: 0, signal: null.
+2024-11-22 15:20:39.571 [info] [127.0.0.1][4cb3834d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-22 15:20:48.130 [info] [127.0.0.1][95c0879a][ManagementConnection] New connection established.
+2024-11-22 15:20:48.131 [info] [127.0.0.1][b3128b84][ExtensionHostConnection] New connection established.
+2024-11-22 15:20:48.137 [info] [127.0.0.1][b3128b84][ExtensionHostConnection] <2795> Launched Extension Host Process.
+2024-11-22 15:25:48.457 [info] [127.0.0.1][6900e66a][ExtensionHostConnection] <2650> Extension Host Process exited with code: 0, signal: null.
+2024-11-22 15:28:02.616 [info] [127.0.0.1][95c0879a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

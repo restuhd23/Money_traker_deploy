@@ -1,0 +1,52 @@
+.header {
+  background-color: #000000;
+  color: white;
+  padding: 70px 0;
+  text-align: center;
+}
+.header h1,
+.header h4 {
+  margin: 0;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 80px auto;
+}
+.content {
+  padding: 20px;
+}
+.portfolio img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.footer {
+  text-align: center;
+  padding: 150px 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+.footer h2 {
+  margin-bottom: 50px;
+}
+.footer img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.footer a {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.ikhsan-header {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+}

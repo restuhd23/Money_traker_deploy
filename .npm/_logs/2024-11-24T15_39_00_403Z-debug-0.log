@@ -1,0 +1,165 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.11.0/bin/node /usr/local/nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/c182b4kx3757/.cache/typescript/5.6/.npmrc
+5 silly config load:file:/home/c182b4kx3757/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.11.0/etc/npmrc
+7 verbose title npm install @types/supertest@ts5.6
+8 verbose argv "install" "--ignore-scripts" "@types/supertest@ts5.6" "--save-dev" "--user-agent" "typesInstaller/5.6.3"
+9 verbose logfile logs-max:10 dir:/home/c182b4kx3757/.npm/_logs/2024-11-24T15_39_00_403Z-
+10 verbose logfile /home/c182b4kx3757/.npm/_logs/2024-11-24T15_39_00_403Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fsupertest cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@types%2fsupertest 232ms (cache miss)
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2fsupertest set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest @types/supertest@6.0.2
+19 silly packumentCache full:https://registry.npmjs.org/@types%2fsupertest cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fsupertest 105ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2fsupertest set size:undefined disposed:false
+22 silly placeDep ROOT @types/supertest@6.0.2 OK for:  want: 6.0.2
+23 silly fetch manifest @types/superagent@^8.1.0
+24 silly packumentCache full:https://registry.npmjs.org/@types%2fsuperagent cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@types%2fsuperagent 92ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@types%2fsuperagent set size:undefined disposed:false
+27 silly placeDep ROOT @types/superagent@8.1.9 OK for: @types/supertest@6.0.2 want: ^8.1.0
+28 silly fetch manifest form-data@^4.0.0
+29 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+30 silly fetch manifest @types/cookiejar@^2.1.5
+31 silly packumentCache full:https://registry.npmjs.org/@types%2fcookiejar cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/form-data 55ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/form-data set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/@types%2fcookiejar 74ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/@types%2fcookiejar set size:undefined disposed:false
+36 silly placeDep ROOT @types/cookiejar@2.1.5 OK for: @types/superagent@8.1.9 want: ^2.1.5
+37 silly placeDep ROOT form-data@4.0.1 OK for: @types/superagent@8.1.9 want: ^4.0.0
+38 silly fetch manifest asynckit@^0.4.0
+39 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+40 silly fetch manifest combined-stream@^1.0.8
+41 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+42 silly fetch manifest mime-types@^2.1.12
+43 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/combined-stream 42ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:undefined disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/asynckit 45ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/asynckit set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/mime-types 106ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+50 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.1 want: ^0.4.0
+51 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.1 want: ^1.0.8
+52 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.1 want: ^2.1.12
+53 silly fetch manifest delayed-stream@~1.0.0
+54 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+55 silly fetch manifest mime-db@1.52.0
+56 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/delayed-stream 46ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:undefined disposed:false
+59 http fetch GET 200 https://registry.npmjs.org/mime-db 77ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+61 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+62 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+63 silly reify moves {}
+64 silly audit bulk request {
+64 silly audit   '@types/accepts': [ '1.3.7' ],
+64 silly audit   '@types/benchmark': [ '2.1.5' ],
+64 silly audit   '@types/body-parser': [ '1.19.5' ],
+64 silly audit   '@types/busboy': [ '1.5.4' ],
+64 silly audit   '@types/bytes': [ '3.1.4' ],
+64 silly audit   '@types/concat-stream': [ '2.0.3' ],
+64 silly audit   '@types/connect': [ '3.4.38' ],
+64 silly audit   '@types/content-disposition': [ '0.5.8' ],
+64 silly audit   '@types/content-type': [ '1.1.8' ],
+64 silly audit   '@types/cookie-signature': [ '1.1.2' ],
+64 silly audit   '@types/dateformat': [ '5.0.2' ],
+64 silly audit   '@types/debug': [ '4.1.12' ],
+64 silly audit   '@types/depd': [ '1.1.37' ],
+64 silly audit   '@types/encodeurl': [ '1.0.2' ],
+64 silly audit   '@types/escape-html': [ '1.0.4' ],
+64 silly audit   '@types/eslint': [ '9.6.1' ],
+64 silly audit   '@types/eslint-plugin-markdown': [ '2.0.2' ],
+64 silly audit   '@types/estree': [ '1.0.6' ],
+64 silly audit   '@types/etag': [ '1.8.3' ],
+64 silly audit   '@types/express': [ '5.0.0' ],
+64 silly audit   '@types/express-serve-static-core': [ '5.0.1' ],
+64 silly audit   '@types/finalhandler': [ '1.2.3' ],
+64 silly audit   '@types/forwarded': [ '0.1.3' ],
+64 silly audit   '@types/fresh': [ '0.5.2' ],
+64 silly audit   '@types/http-errors': [ '2.0.4' ],
+64 silly audit   '@types/istanbul': [ '0.4.34' ],
+64 silly audit   '@types/jquery': [ '3.5.32' ],
+64 silly audit   '@types/json-schema': [ '7.0.15' ],
+64 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+64 silly audit   '@types/methods': [ '1.1.4' ],
+64 silly audit   '@types/mime': [ '1.3.5' ],
+64 silly audit   '@types/mime-types': [ '2.1.4' ],
+64 silly audit   '@types/mocha': [ '10.0.10' ],
+64 silly audit   '@types/ms': [ '0.7.34' ],
+64 silly audit   '@types/multer': [ '1.4.12' ],
+64 silly audit   '@types/mysql': [ '2.15.26' ],
+64 silly audit   '@types/negotiator': [ '0.6.3' ],
+64 silly audit   '@types/node': [ '22.9.3' ],
+64 silly audit   '@types/on-finished': [ '2.3.4' ],
+64 silly audit   '@types/parseurl': [ '1.3.3' ],
+64 silly audit   '@types/proxy-addr': [ '2.0.3' ],
+64 silly audit   '@types/qs': [ '6.9.17' ],
+64 silly audit   '@types/range-parser': [ '1.2.7' ],
+64 silly audit   '@types/send': [ '0.17.4' ],
+64 silly audit   '@types/serve-static': [ '1.15.7' ],
+64 silly audit   '@types/sizzle': [ '2.3.9' ],
+64 silly audit   '@types/sqlstring': [ '2.3.2' ],
+64 silly audit   '@types/statuses': [ '2.0.5' ],
+64 silly audit   '@types/type-is': [ '1.6.6' ],
+64 silly audit   '@types/unist': [ '3.0.3' ],
+64 silly audit   '@types/utils-merge': [ '1.0.0' ],
+64 silly audit   '@types/vary': [ '1.1.3' ],
+64 silly audit   '@types/xtend': [ '4.0.6' ],
+64 silly audit   'types-registry': [ '0.1.696' ],
+64 silly audit   'undici-types': [ '6.19.8' ],
+64 silly audit   '@types/supertest': [ '6.0.2' ],
+64 silly audit   '@types/superagent': [ '8.1.9' ],
+64 silly audit   '@types/cookiejar': [ '2.1.5' ],
+64 silly audit   'form-data': [ '4.0.1' ],
+64 silly audit   asynckit: [ '0.4.0' ],
+64 silly audit   'combined-stream': [ '1.0.8' ],
+64 silly audit   'mime-types': [ '2.1.35' ],
+64 silly audit   'delayed-stream': [ '1.0.0' ],
+64 silly audit   'mime-db': [ '1.52.0' ]
+64 silly audit }
+65 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+66 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+67 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+68 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+69 silly tarball no local data for @types/superagent@https://registry.npmjs.org/@types/superagent/-/superagent-8.1.9.tgz. Extracting by manifest.
+70 silly tarball no local data for @types/supertest@https://registry.npmjs.org/@types/supertest/-/supertest-6.0.2.tgz. Extracting by manifest.
+71 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+72 silly tarball no local data for @types/cookiejar@https://registry.npmjs.org/@types/cookiejar/-/cookiejar-2.1.5.tgz. Extracting by manifest.
+73 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz. Extracting by manifest.
+74 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 100ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 108ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 155ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 152ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/@types/superagent/-/superagent-8.1.9.tgz 162ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.1.tgz 160ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 166ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/@types/cookiejar/-/cookiejar-2.1.5.tgz 164ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/@types/supertest/-/supertest-6.0.2.tgz 166ms (cache miss)
+83 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 212ms
+84 silly audit report {}
+85 silly ADD node_modules/mime-db
+86 silly ADD node_modules/delayed-stream
+87 silly ADD node_modules/mime-types
+88 silly ADD node_modules/combined-stream
+89 silly ADD node_modules/asynckit
+90 silly ADD node_modules/form-data
+91 silly ADD node_modules/@types/cookiejar
+92 silly ADD node_modules/@types/superagent
+93 silly ADD node_modules/@types/supertest
+94 verbose cwd /home/c182b4kx3757/.cache/typescript/5.6
+95 verbose os Linux 6.1.112+
+96 verbose node v22.11.0
+97 verbose npm  v10.9.0
+98 verbose exit 0
+99 info ok
