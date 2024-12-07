@@ -88,3 +88,5 @@ git config --global user.name "Restu Hidayat"
 git config --global user.email "restuhd23@gmail.com"git config --global user.name "Restu Hidayat"
 git config --global user.email "restuhd23@gmail.com"
 git config --list
+git add .
+git commit -m "Initial commit"
