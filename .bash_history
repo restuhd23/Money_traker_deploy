@@ -90,3 +90,21 @@ git config --global user.email "restuhd23@gmail.com"
 git config --list
 git add .
 git commit -m "Initial commit"
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+ls ~/.ssh
+ssh-keygen -t ed25519 -C "restuhd23@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git remote -v
+git push -u origin main
+chmod 600 ~/.ssh/id_ed25519
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git push -u origin main
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+git pull origin main --allow-unrelated-histories
