@@ -1,0 +1,6 @@
+runtime: php81
+service: frontend
+
+handlers:
+  - url: /assets
+    static_dir: assets

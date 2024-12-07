@@ -1,0 +1,8 @@
+2024-11-22 14:43:03.544 [info] Extension host with pid 2650 started
+2024-11-22 14:43:03.544 [error] Error: EEXIST: file already exists, open '/home/c182b4kx3757/.codeoss/data/User/workspaceStorage/-2b846e1f/vscode.lock'
+2024-11-22 14:43:03.551 [info] Lock '/home/c182b4kx3757/.codeoss/data/User/workspaceStorage/-2b846e1f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-22 14:43:03.556 [info] Lock '/home/c182b4kx3757/.codeoss/data/User/workspaceStorage/-2b846e1f/vscode.lock': The lock does not look stale, elapsed: 88 ms, giving up.
+2024-11-22 14:43:03.569 [info] Lock '/home/c182b4kx3757/.codeoss/data/User/workspaceStorage/-2b846e1f-1/vscode.lock': Lock acquired.
+2024-11-22 15:25:48.444 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-11-22 15:25:48.445 [info] Lock '/home/c182b4kx3757/.codeoss/data/User/workspaceStorage/-2b846e1f-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-22 15:25:48.447 [info] Extension host with pid 2650 exiting with code 0

@@ -1,0 +1,738 @@
+2024-11-24 15:35:30.362 [info] [main] Log level: Info
+2024-11-24 15:35:30.362 [info] [main] Validating found git in: "git"
+2024-11-24 15:35:30.362 [info] [main] Using git "2.43.0" from "git"
+2024-11-24 15:35:30.362 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:30.362 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-24 15:35:30.362 [info] [Model][openRepository] Opened repository: /home/c182b4kx3757/a133-gcp-labs
+2024-11-24 15:35:30.362 [info] > git config --get commit.template [4ms]
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [4ms]
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:35:30.362 [info] > git rev-parse refs/remotes/origin/money-tracker-api [4ms]
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [18ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-24 15:35:30.362 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-24 15:35:30.362 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:30.362 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-24 15:35:30.386 [info] > git status -z -uall [106ms]
+2024-11-24 15:35:30.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [7ms]
+2024-11-24 15:35:30.407 [info] > git config --get commit.template [6ms]
+2024-11-24 15:35:30.408 [info] > git config --local branch.money-tracker-api.vscode-merge-base [1ms]
+2024-11-24 15:35:30.408 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-24 15:35:30.417 [info] > git reflog money-tracker-api --grep-reflog=branch: Created from *. [6ms]
+2024-11-24 15:35:30.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [6ms]
+2024-11-24 15:35:30.423 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:35:30.425 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 15:35:30.433 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [13ms]
+2024-11-24 15:35:30.437 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-24 15:35:30.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [2ms]
+2024-11-24 15:35:30.444 [info] > git config --local branch.money-tracker-api.vscode-merge-base origin/gke-lab [3ms]
+2024-11-24 15:35:30.453 [info] > git status -z -uall [25ms] (cancelled)
+2024-11-24 15:35:30.454 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [6ms]
+2024-11-24 15:35:30.458 [info] > git config --get commit.template [6ms]
+2024-11-24 15:35:30.463 [info] > git config --local branch.money-tracker-api.vscode-merge-base [6ms]
+2024-11-24 15:35:30.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [5ms]
+2024-11-24 15:35:30.470 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:35:30.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [5ms]
+2024-11-24 15:35:30.513 [info] > git merge-base refs/heads/money-tracker-api refs/remotes/origin/money-tracker-api [37ms]
+2024-11-24 15:35:30.517 [info] > git rev-parse refs/remotes/origin/money-tracker-api [47ms]
+2024-11-24 15:35:30.527 [info] > git diff --name-status -z --diff-filter=ADMR 824890749a8d45aaa38541edd391500712a60254...refs/remotes/origin/money-tracker-api [10ms]
+2024-11-24 15:35:30.529 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 15:35:30.600 [info] > git status -z -uall [80ms]
+2024-11-24 15:35:33.842 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:33.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:35:33.890 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:35:33.890 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:36:05.220 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-24 15:36:05.220 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:36:19.514 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 15:36:19.515 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:36:20.269 [info] > git config --get commit.template [3ms]
+2024-11-24 15:36:20.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 15:36:20.288 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:36:20.290 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 15:36:20.317 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-24 15:36:20.395 [info] > git status -z -uall [98ms]
+2024-11-24 15:36:21.018 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 15:37:11.095 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 15:37:42.991 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/HEAD'
+2024-11-24 15:37:43.005 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/config'
+2024-11-24 15:37:43.025 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/HEAD'
+2024-11-24 15:37:43.041 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/config'
+2024-11-24 15:39:26.512 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 15:39:26.512 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:39:33.469 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 15:39:33.469 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:39:33.478 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 15:39:33.478 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:39:57.247 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 15:39:57.247 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:40:44.680 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 15:40:44.681 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 15:45:25.458 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-24 15:45:25.468 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-11-24 15:45:25.474 [info] [Model][openRepository] Opened repository: /home/c182b4kx3757/backend
+2024-11-24 15:45:25.489 [info] > git config --get commit.template [8ms]
+2024-11-24 15:45:25.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 15:45:25.497 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:45:25.499 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 15:45:25.519 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 15:45:25.584 [info] > git status -z -uall [79ms]
+2024-11-24 15:45:25.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [8ms]
+2024-11-24 15:45:25.614 [info] > git config --get commit.template [9ms]
+2024-11-24 15:45:25.615 [info] > git config --local branch.money-tracker-api.vscode-merge-base [1ms]
+2024-11-24 15:45:25.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [11ms]
+2024-11-24 15:45:25.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [12ms]
+2024-11-24 15:45:25.645 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:45:25.646 [info] > git merge-base refs/heads/money-tracker-api refs/remotes/origin/money-tracker-api [7ms]
+2024-11-24 15:45:25.653 [info] > git rev-parse refs/remotes/origin/money-tracker-api [8ms]
+2024-11-24 15:45:25.669 [info] > git diff --name-status -z --diff-filter=ADMR 824890749a8d45aaa38541edd391500712a60254...refs/remotes/origin/money-tracker-api [17ms]
+2024-11-24 15:45:25.670 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 15:45:25.740 [info] > git status -z -uall [81ms]
+2024-11-24 15:45:26.141 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 15:45:26.173 [info] > git show --textconv :app.yaml [8ms]
+2024-11-24 15:45:26.175 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [3ms]
+2024-11-24 15:45:26.183 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [2ms]
+2024-11-24 15:46:00.236 [info] > git config --get commit.template [8ms]
+2024-11-24 15:46:00.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 15:46:00.243 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:46:00.245 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 15:46:00.263 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 15:46:00.329 [info] > git status -z -uall [77ms]
+2024-11-24 15:47:20.201 [info] > git config --get commit.template [8ms]
+2024-11-24 15:47:20.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 15:47:20.208 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:47:20.210 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 15:47:20.227 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 15:47:20.294 [info] > git status -z -uall [78ms]
+2024-11-24 15:52:23.938 [info] > git config --get commit.template [8ms]
+2024-11-24 15:52:23.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 15:52:23.946 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 15:52:23.947 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 15:52:23.964 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 15:52:24.033 [info] > git status -z -uall [80ms]
+2024-11-24 16:02:08.414 [info] > git config --get commit.template [7ms]
+2024-11-24 16:02:08.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:02:08.422 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:02:08.424 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:02:08.440 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:02:08.529 [info] > git status -z -uall [99ms]
+2024-11-24 16:14:06.487 [info] > git show --textconv :serviceaccountkey.json [9ms]
+2024-11-24 16:14:06.488 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/serviceaccountkey.json [4ms]
+2024-11-24 16:14:06.496 [info] > git cat-file -s 2b87d3802ce841adc446c2ee0b302e3a3b3f4bc3 [2ms]
+2024-11-24 16:16:00.155 [info] > git config --get commit.template [2ms]
+2024-11-24 16:16:00.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:16:00.171 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:16:00.173 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:16:00.190 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 16:16:00.258 [info] > git status -z -uall [79ms]
+2024-11-24 16:16:53.630 [info] > git config --get commit.template [7ms]
+2024-11-24 16:16:53.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:16:53.638 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:16:53.639 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 16:16:53.655 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:16:53.722 [info] > git status -z -uall [77ms]
+2024-11-24 16:22:35.536 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 16:22:40.276 [info] > git show --textconv :modules/imgUpload.js [10ms]
+2024-11-24 16:22:40.277 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/modules/imgUpload.js [5ms]
+2024-11-24 16:22:40.285 [info] > git cat-file -s 4a64d6a4e6b086adfdf25ad496188c6a9200f586 [2ms]
+2024-11-24 16:29:07.334 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-24 16:29:15.743 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-24 16:29:17.636 [info] > git show --textconv :routes/record.js [7ms]
+2024-11-24 16:29:17.639 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/routes/record.js [3ms]
+2024-11-24 16:29:17.648 [info] > git cat-file -s b31ddf949aedf8b9b71fb785a9c5cbbf9312362d [3ms]
+2024-11-24 16:31:21.304 [info] > git show --textconv :app.yaml [6ms]
+2024-11-24 16:31:21.306 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [3ms]
+2024-11-24 16:31:21.314 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [2ms]
+2024-11-24 16:31:42.551 [info] > git config --get commit.template [2ms]
+2024-11-24 16:31:42.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:31:42.565 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:31:42.566 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:31:42.583 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:31:42.649 [info] > git status -z -uall [77ms]
+2024-11-24 16:39:31.087 [info] > git show --textconv :package-lock.json [8ms]
+2024-11-24 16:39:31.089 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/package-lock.json [4ms]
+2024-11-24 16:39:31.099 [info] > git cat-file -s f8b6d0bd921140dcd90bafc2f2835b4a26c1a88e [4ms]
+2024-11-24 16:39:39.131 [info] > git show --textconv :create_table.sql [7ms]
+2024-11-24 16:39:39.133 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/create_table.sql [3ms]
+2024-11-24 16:39:39.141 [info] > git cat-file -s 03b8128e829d7c33d200385d07f8d78aded4cf7a [2ms]
+2024-11-24 16:39:55.900 [info] > git config --get commit.template [7ms]
+2024-11-24 16:39:55.902 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:39:55.908 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:39:55.910 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:39:55.926 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 16:39:55.994 [info] > git status -z -uall [79ms]
+2024-11-24 16:42:17.042 [info] > git show --textconv :app.js [7ms]
+2024-11-24 16:42:17.044 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.js [4ms]
+2024-11-24 16:42:17.052 [info] > git cat-file -s 1014269f9cc5c983e3c7dc788c60529df476fd36 [3ms]
+2024-11-24 16:42:52.383 [info] > git config --get commit.template [8ms]
+2024-11-24 16:42:52.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:42:52.391 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:42:52.394 [info] > git rev-parse refs/remotes/origin/money-tracker-api [3ms]
+2024-11-24 16:42:52.412 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 16:42:52.479 [info] > git status -z -uall [79ms]
+2024-11-24 16:43:41.549 [info] > git config --get commit.template [2ms]
+2024-11-24 16:43:41.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [4ms]
+2024-11-24 16:43:41.570 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:43:41.573 [info] > git rev-parse refs/remotes/origin/money-tracker-api [4ms]
+2024-11-24 16:43:41.604 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-24 16:43:41.703 [info] > git status -z -uall [122ms]
+2024-11-24 16:43:46.720 [info] > git config --get commit.template [7ms]
+2024-11-24 16:43:46.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:43:46.728 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:43:46.729 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 16:43:46.748 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:43:46.814 [info] > git status -z -uall [79ms]
+2024-11-24 16:51:15.071 [info] > git show --textconv :app.yaml [9ms]
+2024-11-24 16:51:15.078 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [7ms]
+2024-11-24 16:51:15.088 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [3ms]
+2024-11-24 16:51:27.392 [info] > git config --get commit.template [7ms]
+2024-11-24 16:51:27.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [4ms]
+2024-11-24 16:51:27.401 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:51:27.403 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:51:27.422 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:51:27.488 [info] > git status -z -uall [79ms]
+2024-11-24 16:53:24.998 [info] > git show --textconv :create_table.sql [7ms]
+2024-11-24 16:53:25.001 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/create_table.sql [4ms]
+2024-11-24 16:53:25.009 [info] > git cat-file -s 03b8128e829d7c33d200385d07f8d78aded4cf7a [2ms]
+2024-11-24 16:55:43.058 [info] > git show --textconv :routes/record.js [7ms]
+2024-11-24 16:55:43.060 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/routes/record.js [3ms]
+2024-11-24 16:55:43.068 [info] > git cat-file -s b31ddf949aedf8b9b71fb785a9c5cbbf9312362d [2ms]
+2024-11-24 16:55:59.827 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 16:56:16.270 [info] > git show --textconv :modules/imgUpload.js [9ms]
+2024-11-24 16:56:16.273 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/modules/imgUpload.js [4ms]
+2024-11-24 16:56:16.281 [info] > git cat-file -s 4a64d6a4e6b086adfdf25ad496188c6a9200f586 [1ms]
+2024-11-24 16:56:54.558 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 16:56:55.730 [info] > git check-ignore -v -z --stdin [6ms]
+2024-11-24 16:56:56.399 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-24 16:56:57.118 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 16:57:04.991 [info] > git show --textconv :routes/record.js [7ms]
+2024-11-24 16:57:04.993 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/routes/record.js [3ms]
+2024-11-24 16:57:05.001 [info] > git cat-file -s b31ddf949aedf8b9b71fb785a9c5cbbf9312362d [2ms]
+2024-11-24 16:57:55.445 [info] > git show --textconv :app.yaml [7ms]
+2024-11-24 16:57:55.448 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [4ms]
+2024-11-24 16:57:55.455 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [2ms]
+2024-11-24 16:58:00.940 [info] > git config --get commit.template [7ms]
+2024-11-24 16:58:00.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:58:00.949 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:00.950 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:58:00.967 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 16:58:01.034 [info] > git status -z -uall [78ms]
+2024-11-24 16:58:08.138 [info] > git config --get commit.template [2ms]
+2024-11-24 16:58:08.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:58:08.151 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:08.153 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:58:08.170 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:58:08.236 [info] > git status -z -uall [77ms]
+2024-11-24 16:58:20.801 [info] > git config --get commit.template [7ms]
+2024-11-24 16:58:20.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:58:20.808 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:20.810 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:58:20.827 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:58:20.892 [info] > git status -z -uall [76ms]
+2024-11-24 16:58:25.910 [info] > git config --get commit.template [6ms]
+2024-11-24 16:58:25.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:58:25.917 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:25.919 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:58:25.937 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:58:26.009 [info] > git status -z -uall [84ms]
+2024-11-24 16:58:44.874 [info] > git config --get commit.template [7ms]
+2024-11-24 16:58:44.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:58:44.882 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:44.884 [info] > git rev-parse refs/remotes/origin/money-tracker-api [3ms]
+2024-11-24 16:58:44.902 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:58:44.967 [info] > git status -z -uall [77ms]
+2024-11-24 16:58:50.552 [info] > git config --get commit.template [7ms]
+2024-11-24 16:58:50.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:58:50.560 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:50.562 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:58:50.578 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:58:50.646 [info] > git status -z -uall [78ms]
+2024-11-24 16:58:57.380 [info] > git config --get commit.template [6ms]
+2024-11-24 16:58:57.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:58:57.388 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:58:57.390 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:58:57.407 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 16:58:57.474 [info] > git status -z -uall [78ms]
+2024-11-24 16:59:10.022 [info] > git config --get commit.template [6ms]
+2024-11-24 16:59:10.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:59:10.030 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:10.031 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 16:59:10.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:10.113 [info] > git status -z -uall [76ms]
+2024-11-24 16:59:19.008 [info] > git config --get commit.template [6ms]
+2024-11-24 16:59:19.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:59:19.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:19.018 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:59:19.035 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:19.101 [info] > git status -z -uall [78ms]
+2024-11-24 16:59:26.241 [info] > git config --get commit.template [7ms]
+2024-11-24 16:59:26.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:59:26.249 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:26.250 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 16:59:26.267 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:26.335 [info] > git status -z -uall [78ms]
+2024-11-24 16:59:34.628 [info] > git config --get commit.template [6ms]
+2024-11-24 16:59:34.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:59:34.635 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:34.637 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:59:34.653 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:34.719 [info] > git status -z -uall [76ms]
+2024-11-24 16:59:43.058 [info] > git config --get commit.template [9ms]
+2024-11-24 16:59:43.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:59:43.065 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:43.066 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 16:59:43.083 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:43.150 [info] > git status -z -uall [78ms]
+2024-11-24 16:59:48.168 [info] > git config --get commit.template [7ms]
+2024-11-24 16:59:48.170 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 16:59:48.177 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:48.179 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:59:48.196 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:48.264 [info] > git status -z -uall [79ms]
+2024-11-24 16:59:55.075 [info] > git config --get commit.template [6ms]
+2024-11-24 16:59:55.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 16:59:55.082 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 16:59:55.084 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 16:59:55.100 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 16:59:55.166 [info] > git status -z -uall [76ms]
+2024-11-24 17:00:03.336 [info] > git config --get commit.template [8ms]
+2024-11-24 17:00:03.337 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 17:00:03.344 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 17:00:03.346 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 17:00:03.363 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:00:03.432 [info] > git status -z -uall [81ms]
+2024-11-24 17:00:08.451 [info] > git config --get commit.template [9ms]
+2024-11-24 17:00:08.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 17:00:08.457 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 17:00:08.459 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 17:00:08.475 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:00:08.567 [info] > git status -z -uall [102ms]
+2024-11-24 17:00:20.588 [info] > git config --get commit.template [6ms]
+2024-11-24 17:00:20.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 17:00:20.596 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 17:00:20.597 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 17:00:20.614 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:00:20.680 [info] > git status -z -uall [77ms]
+2024-11-24 17:00:33.415 [info] > git config --get commit.template [8ms]
+2024-11-24 17:00:33.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 17:00:33.422 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 17:00:33.423 [info] > git rev-parse refs/remotes/origin/money-tracker-api [1ms]
+2024-11-24 17:00:33.440 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:00:33.508 [info] > git status -z -uall [78ms]
+2024-11-24 17:00:38.531 [info] > git config --get commit.template [10ms]
+2024-11-24 17:00:38.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [3ms]
+2024-11-24 17:00:38.542 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 17:00:38.545 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 17:00:38.564 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:00:38.631 [info] > git status -z -uall [80ms]
+2024-11-24 17:00:49.697 [info] > git config --get commit.template [7ms]
+2024-11-24 17:00:49.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [2ms]
+2024-11-24 17:00:49.704 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 17:00:49.706 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 17:00:49.723 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:00:49.789 [info] > git status -z -uall [77ms]
+2024-11-24 17:04:05.210 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 17:04:05.220 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-24 17:04:05.229 [info] [Model][openRepository] Opened repository: /home/c182b4kx3757/a133-gcp-labs
+2024-11-24 17:04:05.245 [info] > git config --get commit.template [6ms]
+2024-11-24 17:04:05.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 17:04:05.246 [warning] [Git][getBranch] No such branch: master
+2024-11-24 17:04:05.259 [info] > git status -z -uall [7ms]
+2024-11-24 17:04:05.260 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:04:05.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-11-24 17:04:05.280 [warning] [Git][getBranch] No such branch: master
+2024-11-24 17:04:05.281 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-11-24 17:04:05.282 [info] > git config --get commit.template [4ms]
+2024-11-24 17:04:05.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-24 17:04:05.290 [warning] [Git][getBranch] No such branch: master
+2024-11-24 17:04:05.302 [info] > git status -z -uall [6ms]
+2024-11-24 17:04:05.304 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:04:06.320 [info] > git check-ignore -v -z --stdin [9ms]
+2024-11-24 17:04:06.321 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-24 17:04:10.086 [info] > git config --get commit.template [7ms]
+2024-11-24 17:04:10.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:04:10.093 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:04:10.095 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:04:10.110 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:04:10.272 [info] > git status -z -uall [172ms]
+2024-11-24 17:04:10.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:04:10.293 [info] > git config --local branch.money-tracker.vscode-merge-base [2ms]
+2024-11-24 17:04:10.293 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-24 17:04:10.302 [info] > git reflog money-tracker --grep-reflog=branch: Created from *. [3ms]
+2024-11-24 17:04:10.309 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-11-24 17:04:10.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [1ms]
+2024-11-24 17:04:10.325 [info] > git config --local branch.money-tracker.vscode-merge-base origin/gke-lab [2ms]
+2024-11-24 17:04:10.340 [info] > git config --get commit.template [8ms]
+2024-11-24 17:04:10.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:04:10.348 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:04:10.350 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:04:10.366 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:04:10.531 [info] > git status -z -uall [176ms]
+2024-11-24 17:04:10.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [7ms]
+2024-11-24 17:04:10.555 [info] > git merge-base refs/heads/money-tracker refs/remotes/origin/money-tracker [10ms]
+2024-11-24 17:04:10.561 [info] > git config --local branch.money-tracker.vscode-merge-base [8ms]
+2024-11-24 17:04:10.568 [info] > git diff --name-status -z --diff-filter=ADMR 7d57bdedbe5720fb29e2af7d751cf0fa4b5f552d...refs/remotes/origin/money-tracker [7ms]
+2024-11-24 17:04:10.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [3ms]
+2024-11-24 17:04:40.457 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 17:05:19.985 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/HEAD'
+2024-11-24 17:05:19.998 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/config'
+2024-11-24 17:05:20.014 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/HEAD'
+2024-11-24 17:05:20.025 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/c182b4kx3757/a133-gcp-labs/.git/config'
+2024-11-24 17:05:20.694 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 17:05:22.126 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 17:07:04.147 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 17:07:04.156 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-24 17:07:04.160 [info] [Model][openRepository] Opened repository: /home/c182b4kx3757/frontend
+2024-11-24 17:07:04.169 [info] > git config --get commit.template [2ms]
+2024-11-24 17:07:04.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:07:04.185 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:07:04.186 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:07:04.202 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:07:04.390 [info] > git status -z -uall [197ms]
+2024-11-24 17:07:04.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [9ms]
+2024-11-24 17:07:04.416 [info] > git config --get commit.template [8ms]
+2024-11-24 17:07:04.423 [info] > git config --local branch.money-tracker.vscode-merge-base [8ms]
+2024-11-24 17:07:04.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [10ms]
+2024-11-24 17:07:04.438 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:07:04.439 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [7ms]
+2024-11-24 17:07:04.447 [info] > git rev-parse refs/remotes/origin/money-tracker [8ms]
+2024-11-24 17:07:04.462 [info] > git merge-base refs/heads/money-tracker refs/remotes/origin/money-tracker [17ms]
+2024-11-24 17:07:04.470 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-11-24 17:07:04.472 [info] > git diff --name-status -z --diff-filter=ADMR 7d57bdedbe5720fb29e2af7d751cf0fa4b5f552d...refs/remotes/origin/money-tracker [3ms]
+2024-11-24 17:07:04.638 [info] > git status -z -uall [186ms]
+2024-11-24 17:07:04.841 [info] > git show --textconv :application/models/Record_model.php [9ms]
+2024-11-24 17:07:04.842 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/models/Record_model.php [2ms]
+2024-11-24 17:07:04.849 [info] > git cat-file -s ca61961288680d4bf1705904dceecb69d5b59cd9 [2ms]
+2024-11-24 17:07:04.902 [info] > git check-ignore -v -z --stdin [7ms]
+2024-11-24 17:07:04.904 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-24 17:14:36.675 [info] > git show --textconv :app.yaml [20ms]
+2024-11-24 17:14:36.676 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [15ms]
+2024-11-24 17:14:36.685 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [3ms]
+2024-11-24 17:14:37.763 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 17:14:45.645 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 17:14:47.984 [info] > git show --textconv :app.yaml [7ms]
+2024-11-24 17:14:47.987 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/app.yaml [4ms]
+2024-11-24 17:14:47.995 [info] > git cat-file -s 4f757757ded294499eac4f9602496bbe1e72be55 [2ms]
+2024-11-24 17:15:08.700 [info] > git config --get commit.template [9ms]
+2024-11-24 17:15:08.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:15:08.707 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:15:08.710 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:15:08.725 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:15:08.889 [info] > git status -z -uall [174ms]
+2024-11-24 17:15:18.762 [info] > git config --get commit.template [8ms]
+2024-11-24 17:15:18.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:15:18.770 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:15:18.772 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:15:18.788 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:15:18.949 [info] > git status -z -uall [171ms]
+2024-11-24 17:17:37.990 [info] > git config --get commit.template [7ms]
+2024-11-24 17:17:37.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:17:37.997 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:17:37.999 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:17:38.014 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:17:38.183 [info] > git status -z -uall [177ms]
+2024-11-24 17:17:43.424 [info] > git config --get commit.template [2ms]
+2024-11-24 17:17:43.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:17:43.438 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:17:43.440 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:17:43.456 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:17:43.618 [info] > git status -z -uall [172ms]
+2024-11-24 17:18:12.572 [info] > git config --get commit.template [6ms]
+2024-11-24 17:18:12.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:18:12.580 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:18:12.582 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:18:12.598 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:18:12.761 [info] > git status -z -uall [173ms]
+2024-11-24 17:18:17.778 [info] > git config --get commit.template [7ms]
+2024-11-24 17:18:17.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:18:17.785 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:18:17.787 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:18:17.803 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:18:17.964 [info] > git status -z -uall [171ms]
+2024-11-24 17:19:23.856 [info] > git config --get commit.template [6ms]
+2024-11-24 17:19:23.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:19:23.863 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:19:23.865 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:19:23.882 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:19:24.042 [info] > git status -z -uall [171ms]
+2024-11-24 17:19:31.745 [info] > git config --get commit.template [7ms]
+2024-11-24 17:19:31.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:19:31.753 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:19:31.755 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:19:31.770 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:19:31.932 [info] > git status -z -uall [172ms]
+2024-11-24 17:19:43.402 [info] > git config --get commit.template [7ms]
+2024-11-24 17:19:43.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:19:43.410 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:19:43.411 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:19:43.427 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:19:43.588 [info] > git status -z -uall [171ms]
+2024-11-24 17:19:50.381 [info] > git config --get commit.template [9ms]
+2024-11-24 17:19:50.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:19:50.387 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:19:50.389 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:19:50.405 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:19:50.569 [info] > git status -z -uall [174ms]
+2024-11-24 17:19:58.449 [info] > git config --get commit.template [6ms]
+2024-11-24 17:19:58.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:19:58.456 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:19:58.458 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:19:58.475 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:19:58.664 [info] > git status -z -uall [201ms]
+2024-11-24 17:20:26.867 [info] > git config --get commit.template [3ms]
+2024-11-24 17:20:26.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:20:26.881 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:20:26.883 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:20:26.898 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:20:27.061 [info] > git status -z -uall [173ms]
+2024-11-24 17:20:32.073 [info] > git config --get commit.template [2ms]
+2024-11-24 17:20:32.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:20:32.088 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:20:32.089 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:20:32.107 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:20:32.268 [info] > git status -z -uall [173ms]
+2024-11-24 17:20:40.699 [info] > git config --get commit.template [1ms]
+2024-11-24 17:20:40.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:20:40.712 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:20:40.714 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:20:40.729 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:20:40.893 [info] > git status -z -uall [173ms]
+2024-11-24 17:20:50.870 [info] > git config --get commit.template [7ms]
+2024-11-24 17:20:50.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:20:50.877 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:20:50.878 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:20:50.895 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:20:51.058 [info] > git status -z -uall [173ms]
+2024-11-24 17:20:56.078 [info] > git config --get commit.template [10ms]
+2024-11-24 17:20:56.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:20:56.089 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:20:56.092 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:20:56.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:20:56.279 [info] > git status -z -uall [177ms]
+2024-11-24 17:21:01.294 [info] > git config --get commit.template [7ms]
+2024-11-24 17:21:01.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:21:01.301 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:21:01.303 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:21:01.318 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:21:01.479 [info] > git status -z -uall [171ms]
+2024-11-24 17:21:06.496 [info] > git config --get commit.template [7ms]
+2024-11-24 17:21:06.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:21:06.504 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:21:06.506 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:21:06.523 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 17:21:06.687 [info] > git status -z -uall [175ms]
+2024-11-24 17:21:11.706 [info] > git config --get commit.template [9ms]
+2024-11-24 17:21:11.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:21:11.714 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:21:11.715 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:21:11.732 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:21:11.894 [info] > git status -z -uall [172ms]
+2024-11-24 17:21:16.911 [info] > git config --get commit.template [8ms]
+2024-11-24 17:21:16.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:21:16.919 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:21:16.920 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:21:16.936 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:21:17.097 [info] > git status -z -uall [171ms]
+2024-11-24 17:21:32.919 [info] > git config --get commit.template [2ms]
+2024-11-24 17:21:32.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:21:32.933 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:21:32.935 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:21:32.952 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 17:21:33.113 [info] > git status -z -uall [171ms]
+2024-11-24 17:21:42.473 [info] > git config --get commit.template [7ms]
+2024-11-24 17:21:42.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:21:42.481 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:21:42.483 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:21:42.498 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:21:42.662 [info] > git status -z -uall [173ms]
+2024-11-24 17:22:41.745 [info] > git config --get commit.template [7ms]
+2024-11-24 17:22:41.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:22:41.753 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:22:41.755 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:22:41.770 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:22:41.934 [info] > git status -z -uall [174ms]
+2024-11-24 17:23:31.994 [info] > git config --get commit.template [7ms]
+2024-11-24 17:23:31.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:23:32.003 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:23:32.005 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:23:32.022 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:23:32.185 [info] > git status -z -uall [174ms]
+2024-11-24 17:23:37.202 [info] > git config --get commit.template [7ms]
+2024-11-24 17:23:37.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:23:37.209 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:23:37.211 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:23:37.228 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:23:37.392 [info] > git status -z -uall [176ms]
+2024-11-24 17:23:42.407 [info] > git config --get commit.template [7ms]
+2024-11-24 17:23:42.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:23:42.414 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:23:42.416 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:23:42.431 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:23:42.595 [info] > git status -z -uall [174ms]
+2024-11-24 17:23:52.710 [info] > git config --get commit.template [2ms]
+2024-11-24 17:23:52.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:23:52.724 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:23:52.726 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:23:52.743 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:23:52.906 [info] > git status -z -uall [174ms]
+2024-11-24 17:23:58.270 [info] > git config --get commit.template [6ms]
+2024-11-24 17:23:58.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:23:58.278 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:23:58.279 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:23:58.295 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:23:58.455 [info] > git status -z -uall [170ms]
+2024-11-24 17:24:05.560 [info] > git config --get commit.template [2ms]
+2024-11-24 17:24:05.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:24:05.575 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:24:05.577 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:24:05.592 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:24:05.752 [info] > git status -z -uall [169ms]
+2024-11-24 17:24:17.201 [info] > git config --get commit.template [7ms]
+2024-11-24 17:24:17.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:24:17.208 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:24:17.210 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:24:17.226 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:24:17.388 [info] > git status -z -uall [173ms]
+2024-11-24 17:27:36.278 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 17:27:37.646 [info] > git show --textconv :application/config/config.php [7ms]
+2024-11-24 17:27:37.648 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/config/config.php [3ms]
+2024-11-24 17:27:37.656 [info] > git cat-file -s 4ad9f068fccf2ab052df224dce3446da4f88da6a [2ms]
+2024-11-24 17:33:29.159 [info] > git show --textconv :app.yaml [8ms]
+2024-11-24 17:33:29.161 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [3ms]
+2024-11-24 17:33:29.169 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [2ms]
+2024-11-24 17:33:43.847 [info] > git show --textconv :app.yaml [7ms]
+2024-11-24 17:33:43.849 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/app.yaml [3ms]
+2024-11-24 17:33:43.856 [info] > git cat-file -s 4f757757ded294499eac4f9602496bbe1e72be55 [2ms]
+2024-11-24 17:33:48.214 [info] > git show --textconv :app.yaml [8ms]
+2024-11-24 17:33:48.217 [info] > git ls-files --stage -- /home/c182b4kx3757/backend/app.yaml [3ms]
+2024-11-24 17:33:48.225 [info] > git cat-file -s 0c92d5a20457240a5a267cd257dc070ca48a8629 [3ms]
+2024-11-24 17:33:49.911 [info] > git show --textconv :app.yaml [7ms]
+2024-11-24 17:33:49.914 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/app.yaml [4ms]
+2024-11-24 17:33:49.922 [info] > git cat-file -s 4f757757ded294499eac4f9602496bbe1e72be55 [2ms]
+2024-11-24 17:34:07.199 [info] > git config --get commit.template [8ms]
+2024-11-24 17:34:07.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:34:07.207 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:07.208 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:34:07.224 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:34:07.387 [info] > git status -z -uall [173ms]
+2024-11-24 17:34:20.618 [info] > git config --get commit.template [3ms]
+2024-11-24 17:34:20.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:34:20.633 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:20.635 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:34:20.652 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:34:20.812 [info] > git status -z -uall [171ms]
+2024-11-24 17:34:25.829 [info] > git config --get commit.template [6ms]
+2024-11-24 17:34:25.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:34:25.837 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:25.838 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:34:25.854 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:34:26.017 [info] > git status -z -uall [173ms]
+2024-11-24 17:34:34.054 [info] > git config --get commit.template [9ms]
+2024-11-24 17:34:34.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:34:34.061 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:34.063 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:34:34.079 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:34:34.242 [info] > git status -z -uall [173ms]
+2024-11-24 17:34:39.897 [info] > git config --get commit.template [7ms]
+2024-11-24 17:34:39.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:34:39.905 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:39.907 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:34:39.922 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:34:40.085 [info] > git status -z -uall [173ms]
+2024-11-24 17:34:47.173 [info] > git config --get commit.template [9ms]
+2024-11-24 17:34:47.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:34:47.181 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:47.182 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:34:47.199 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 17:34:47.359 [info] > git status -z -uall [171ms]
+2024-11-24 17:34:53.006 [info] > git config --get commit.template [7ms]
+2024-11-24 17:34:53.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:34:53.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:34:53.017 [info] > git rev-parse refs/remotes/origin/money-tracker [1ms]
+2024-11-24 17:34:53.034 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:34:53.197 [info] > git status -z -uall [174ms]
+2024-11-24 17:35:05.369 [info] > git config --get commit.template [8ms]
+2024-11-24 17:35:05.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 17:35:05.377 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:35:05.378 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:35:05.396 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:35:05.566 [info] > git status -z -uall [181ms]
+2024-11-24 17:35:31.727 [info] > git config --get commit.template [8ms]
+2024-11-24 17:35:31.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:35:31.734 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:35:31.736 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:35:31.752 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:35:31.915 [info] > git status -z -uall [173ms]
+2024-11-24 17:49:01.681 [info] > git show --textconv :application/config/config.php [8ms]
+2024-11-24 17:49:01.683 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/config/config.php [3ms]
+2024-11-24 17:49:01.691 [info] > git cat-file -s 4ad9f068fccf2ab052df224dce3446da4f88da6a [2ms]
+2024-11-24 17:49:31.678 [info] > git show --textconv :application/models/Record_model.php [7ms]
+2024-11-24 17:49:31.680 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/models/Record_model.php [3ms]
+2024-11-24 17:49:31.688 [info] > git cat-file -s ca61961288680d4bf1705904dceecb69d5b59cd9 [2ms]
+2024-11-24 17:49:34.946 [info] > git show --textconv :application/config/config.php [7ms]
+2024-11-24 17:49:34.949 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/config/config.php [3ms]
+2024-11-24 17:49:34.957 [info] > git cat-file -s 4ad9f068fccf2ab052df224dce3446da4f88da6a [2ms]
+2024-11-24 17:49:36.989 [info] > git show --textconv :application/models/Record_model.php [7ms]
+2024-11-24 17:49:36.992 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/models/Record_model.php [3ms]
+2024-11-24 17:49:36.999 [info] > git cat-file -s ca61961288680d4bf1705904dceecb69d5b59cd9 [2ms]
+2024-11-24 17:49:47.809 [info] > git show --textconv :application/config/config.php [8ms]
+2024-11-24 17:49:47.811 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/config/config.php [3ms]
+2024-11-24 17:49:47.819 [info] > git cat-file -s 4ad9f068fccf2ab052df224dce3446da4f88da6a [2ms]
+2024-11-24 17:50:00.705 [info] > git show --textconv :application/models/Record_model.php [7ms]
+2024-11-24 17:50:00.707 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/models/Record_model.php [3ms]
+2024-11-24 17:50:00.715 [info] > git cat-file -s ca61961288680d4bf1705904dceecb69d5b59cd9 [2ms]
+2024-11-24 17:50:46.074 [info] > git show --textconv :application/config/config.php [9ms]
+2024-11-24 17:50:46.076 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/config/config.php [3ms]
+2024-11-24 17:50:46.084 [info] > git cat-file -s 4ad9f068fccf2ab052df224dce3446da4f88da6a [2ms]
+2024-11-24 17:51:16.121 [info] > git show --textconv :application/models/Record_model.php [7ms]
+2024-11-24 17:51:16.123 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/application/models/Record_model.php [3ms]
+2024-11-24 17:51:16.131 [info] > git cat-file -s ca61961288680d4bf1705904dceecb69d5b59cd9 [2ms]
+2024-11-24 17:51:21.734 [info] > git show --textconv :app.yaml [7ms]
+2024-11-24 17:51:21.736 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/app.yaml [3ms]
+2024-11-24 17:51:21.745 [info] > git cat-file -s 4f757757ded294499eac4f9602496bbe1e72be55 [3ms]
+2024-11-24 17:51:26.183 [info] > git config --get commit.template [7ms]
+2024-11-24 17:51:26.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [3ms]
+2024-11-24 17:51:26.191 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 17:51:26.193 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 17:51:26.209 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 17:51:26.371 [info] > git status -z -uall [172ms]

@@ -1,0 +1,108 @@
+2024-11-24 19:16:35.648 [info] [main] Log level: Info
+2024-11-24 19:16:35.648 [info] [main] Validating found git in: "git"
+2024-11-24 19:16:35.648 [info] [main] Using git "2.43.0" from "git"
+2024-11-24 19:16:35.648 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:35.648 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-24 19:16:35.648 [info] [Model][openRepository] Opened repository: /home/c182b4kx3757/backend
+2024-11-24 19:16:35.648 [info] > git config --get commit.template [5ms]
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-24 19:16:35.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [8ms]
+2024-11-24 19:16:35.648 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-24 19:16:35.648 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 19:16:35.648 [info] > git rev-parse refs/remotes/origin/money-tracker-api [5ms]
+2024-11-24 19:16:35.649 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-11-24 19:16:35.657 [info] [Model][openRepository] Opened repository: /home/c182b4kx3757/frontend
+2024-11-24 19:16:35.666 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2024-11-24 19:16:35.669 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 19:16:35.669 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.670 [info] > git config --get commit.template [8ms]
+2024-11-24 19:16:35.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [5ms]
+2024-11-24 19:16:35.681 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-24 19:16:35.682 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:35.682 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-24 19:16:35.685 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 19:16:35.687 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 19:16:35.699 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 19:16:35.734 [info] > git status -z -uall [94ms]
+2024-11-24 19:16:35.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [8ms]
+2024-11-24 19:16:35.763 [info] > git config --get commit.template [6ms]
+2024-11-24 19:16:35.764 [info] > git config --local branch.money-tracker-api.vscode-merge-base [1ms]
+2024-11-24 19:16:35.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [4ms]
+2024-11-24 19:16:35.800 [info] > git merge-base refs/heads/money-tracker-api refs/remotes/origin/money-tracker-api [24ms]
+2024-11-24 19:16:35.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker-api refs/remotes/money-tracker-api [33ms]
+2024-11-24 19:16:35.809 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/backend/.git/refs/remotes/origin/money-tracker-api'
+2024-11-24 19:16:35.810 [info] > git diff --name-status -z --diff-filter=ADMR 824890749a8d45aaa38541edd391500712a60254...refs/remotes/origin/money-tracker-api [6ms]
+2024-11-24 19:16:35.811 [info] > git rev-parse refs/remotes/origin/money-tracker-api [2ms]
+2024-11-24 19:16:35.821 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-24 19:16:35.916 [info] > git status -z -uall [102ms]
+2024-11-24 19:16:35.922 [info] > git status -z -uall [232ms]
+2024-11-24 19:16:35.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [7ms]
+2024-11-24 19:16:35.938 [info] > git config --get commit.template [6ms]
+2024-11-24 19:16:35.939 [info] > git config --local branch.money-tracker.vscode-merge-base [2ms]
+2024-11-24 19:16:35.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/gke-lab refs/remotes/origin/gke-lab [4ms]
+2024-11-24 19:16:35.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [5ms]
+2024-11-24 19:16:35.954 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 19:16:35.954 [info] > git merge-base refs/heads/money-tracker refs/remotes/origin/money-tracker [4ms]
+2024-11-24 19:16:35.958 [info] > git rev-parse refs/remotes/origin/money-tracker [5ms]
+2024-11-24 19:16:35.966 [info] > git diff --name-status -z --diff-filter=ADMR 7d57bdedbe5720fb29e2af7d751cf0fa4b5f552d...refs/remotes/origin/money-tracker [9ms]
+2024-11-24 19:16:35.971 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-24 19:16:36.164 [info] > git status -z -uall [203ms]
+2024-11-24 19:16:36.217 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-24 19:16:36.219 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 19:16:37.495 [info] > git show --textconv :app.yaml [5ms]
+2024-11-24 19:16:37.497 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/app.yaml [3ms]
+2024-11-24 19:16:37.503 [info] > git cat-file -s 4f757757ded294499eac4f9602496bbe1e72be55 [3ms]
+2024-11-24 19:16:44.504 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-24 19:16:44.504 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:44.518 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:44.518 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:44.532 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-24 19:16:44.532 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:44.542 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:44.542 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:44.555 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-24 19:16:44.555 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:51.574 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 19:16:51.574 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-24 19:16:53.010 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 19:17:19.205 [info] > git show --textconv :app.yaml [7ms]
+2024-11-24 19:17:19.206 [info] > git ls-files --stage -- /home/c182b4kx3757/frontend/app.yaml [3ms]
+2024-11-24 19:17:19.214 [info] > git cat-file -s 4f757757ded294499eac4f9602496bbe1e72be55 [2ms]
+2024-11-24 19:17:46.969 [info] > git config --get commit.template [8ms]
+2024-11-24 19:17:46.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/money-tracker refs/remotes/money-tracker [2ms]
+2024-11-24 19:17:46.976 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/c182b4kx3757/frontend/.git/refs/remotes/origin/money-tracker'
+2024-11-24 19:17:46.978 [info] > git rev-parse refs/remotes/origin/money-tracker [2ms]
+2024-11-24 19:17:46.995 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-24 19:17:47.152 [info] > git status -z -uall [168ms]
