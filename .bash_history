@@ -108,3 +108,7 @@ git pull
 git branch --set-upstream-to=origin/main main
 git pull
 git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Merge remote-tracking branch 'origin/main' into main"
+git push -u origin main
+git checkout -b cobain
